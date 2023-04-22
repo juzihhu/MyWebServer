@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Juzi-首页</title>
+   <link rel="icon" href="images/favicon.ico">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/common.css">
+   <!-- Custom CSS for navbar and text -->
+   <style>
+       .custom-navbar {
+           background-color: #2c3e50;
+           border: none;
+           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+       }
+       .custom-navbar .navbar-brand,
+       .custom-navbar .navbar-nav > li > a {
+           color: #ecf0f1;
+           font-weight: bold;
+       }
+       .custom-navbar .navbar-nav > li > a:hover,
+       .custom-navbar .navbar-nav > li > a:focus {
+           background-color: transparent;
+           color: #3498db;
+       }
+       .main-text h1 {
+           font-size: 36px;
+           font-weight: bold;
+           color: #2c3e50;
+       }
+       .main-text p {
+           font-size: 18px;
+           color: #34495e;
+           line-height: 1.6;
+       }
+   </style>
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+   <!-- PRE LOADER -->
+   <div class="preloader">
+       <div class="spinner">
+           <span class="spinner-rotate"></span>
+       </div>
+   </div>
+   <!-- NAVIGATION SECTION -->
+   <nav class="navbar custom-navbar navbar-fixed-top" role="navigation">
+       <div class="container">
+           <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                   <span class="sr-only">Toggle Navigation</span>
+                   <span class="icon icon-bar"></span>
+                   <span class="icon icon-bar"></span>
+                   <span class="icon icon-bar"></span>
+               </button>
+               <a href="/" class="navbar-brand">Juzi</a>
+           </div>
+           <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                   <li><a class="smoothScroll" href="/">首页</a></li>
+                   <li><a class="smoothScroll" href="/picture">图片</a></li>
+                   <li><a class="smoothScroll" href="/video">视频</a></li>
+                   <li><a class="smoothScroll" href="/login">登录</a></li>
+                   <li><a class="smoothScroll" href="/register">注册</a></li>
+               </ul>
+           </div>
+       </div>
+   </nav>
+   
+   <!-- Main Text Section -->
+   <section id="home">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-offset-1 col-md-2 col-sm-3">
+                   <img src="images/profile-image.jpg"
+查看更少
+class="wow fadeInUp img-responsive img-circle" data-wow-delay="0.2s" alt="about image">
+               </div>
+               <div class="col-md-8 col-sm-8 main-text">
+                    
+                   <h1 class="wow fadeInUp" data-wow-delay="0.6s">这是首页</h1>
+                   <p class="lead wow fadeInUp" data-wow-delay="0.8s">TinyWebServer 利用 IO 复用技术 Epoll 与线程池模拟 Proactor 事件处理模式，实现了对浏览器请求的解析与响应。在理解 TinyWebServer 的基础上实现了对性能的改进。</p>
+                   <p class="wow fadeInUp" data-wow-delay="1s">实现了基于信号量和条件变量版本线程池，使用智能指针对 Pool 对象进行管理，并利用标准库容器封装 char，实现自动增长的缓存区。对原有基于升序链表的定时器进行了改进，采用小根堆实现，并关闭超时的非活动连接。</p>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- SCRIPTS -->
+   <script src="js/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/smoothscroll.js"></script>
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <script src="js/magnific-popup-options.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/custom.js"></script>
+</body>
+</html>

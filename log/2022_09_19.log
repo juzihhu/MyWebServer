@@ -1,0 +1,37 @@
+2022-09-19 21:28:19.629323 [info] : ========== Server init ==========
+2022-09-19 21:28:19.629334 [info] : Port:9999, OpenLinger: false
+2022-09-19 21:28:19.629338 [info] : Listen Mode: ET, OpenConn Mode: ET
+2022-09-19 21:28:19.629342 [info] : LogSys level: 1
+2022-09-19 21:28:19.629346 [info] : srcDir: /home/panan/WebServer注释版/WebServer-master/resources/
+2022-09-19 21:28:19.629349 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2022-09-19 21:28:19.629353 [info] : ========== Server start ==========
+2022-09-19 21:28:25.871360 [info] : Client[18](36.152.100.137:36400) in, userCount:1
+2022-09-19 21:28:25.871448 [info] : Client[18] in!
+2022-09-19 21:28:25.872830 [info] : Client[22](36.152.100.137:36144) in, userCount:2
+2022-09-19 21:28:25.872850 [info] : Client[22] in!
+2022-09-19 21:28:25.980823 [info] : Client[23](36.152.100.137:36912) in, userCount:3
+2022-09-19 21:28:25.980873 [info] : Client[23] in!
+2022-09-19 21:28:25.984654 [info] : Client[24](36.152.100.137:37168) in, userCount:4
+2022-09-19 21:28:25.984685 [info] : Client[24] in!
+2022-09-19 21:28:25.986635 [info] : Client[25](36.152.100.137:37424) in, userCount:5
+2022-09-19 21:28:25.986668 [info] : Client[25] in!
+2022-09-19 21:28:26.128183 [info] : Client[26](36.152.100.137:37936) in, userCount:6
+2022-09-19 21:28:26.128234 [info] : Client[26] in!
+2022-09-19 21:29:48.016847 [info] : Client[26] quit!
+2022-09-19 21:29:48.017195 [info] : Client[26](36.152.100.137:37936) quit, UserCount:5
+2022-09-19 21:30:27.394803 [info] : Client[23] quit!
+2022-09-19 21:30:27.394934 [info] : Client[23](36.152.100.137:36912) quit, UserCount:4
+2022-09-19 21:30:27.394976 [info] : Client[18] quit!
+2022-09-19 21:30:27.395021 [info] : Client[18](36.152.100.137:36400) quit, UserCount:3
+2022-09-19 21:30:27.488147 [info] : Client[24] quit!
+2022-09-19 21:30:27.488213 [info] : Client[24](36.152.100.137:37168) quit, UserCount:2
+2022-09-19 21:30:27.528301 [info] : Client[25] quit!
+2022-09-19 21:30:27.528358 [info] : Client[25](36.152.100.137:37424) quit, UserCount:1
+2022-09-19 21:30:27.658526 [info] : Client[22] quit!
+2022-09-19 21:30:27.658597 [info] : Client[22](36.152.100.137:36144) quit, UserCount:0
+2022-09-19 21:30:47.464088 [info] : Client[26] quit!
+2022-09-19 23:45:26.241174 [info] : Client[18](89.248.165.101:2795) in, userCount:1
+2022-09-19 23:45:26.241243 [info] : Client[18] in!
+2022-09-19 23:45:26.241499 [error]: RequestLine Error
+2022-09-19 23:45:26.241615 [info] : Client[18] quit!
+2022-09-19 23:45:26.241663 [info] : Client[18](89.248.165.101:2795) quit, UserCount:0
