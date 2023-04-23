@@ -15,7 +15,7 @@ TinyWebServer利用Epoll与线程池模拟Proactor模式，实现对浏览器请
 
 ## 项目代码架构理解
 
-![](./webserver代码架构.png)
+![](./webserverCode.png)
 
 ## 环境要求
 
